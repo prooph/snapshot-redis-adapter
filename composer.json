@@ -1,0 +1,30 @@
+{
+    "name": "oqq/snapshot-redis-adapter",
+    "description": "Snapshot Redis Adapter for ProophEventStore",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Eric Braun",
+            "email": "eb@oqq.be"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "prooph/event-store": "^6.0",
+        "prooph/common": "^3.5",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prooph\\EventStore\\Snapshot\\Adapter\\Redis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ProophTest\\EventStore\\Snapshot\\Adapter\\Redis\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    }
+}
