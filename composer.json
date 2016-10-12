@@ -1,5 +1,5 @@
 {
-    "name": "oqq/snapshot-redis-adapter",
+    "name": "prooph/snapshot-redis-adapter",
     "description": "Snapshot Redis Adapter for ProophEventStore",
     "license": "BSD-3-Clause",
     "authors": [
